@@ -1,5 +1,5 @@
 let url = "https://flipboard.com/@raimoseero/feed-nii8kd0sz?rss"
-let KEY = "kHiS1fTW8g9kDfN3HU1oOAOYcJwXbxnHiA0G78uZ"
+let KEY = "API KEY HERE"
 let loading = document.getElementById("loading")
 fetch("https://cors-anywhere.herokuapp.com/" + url).then((res) => {
     res.text().then((htmlTxt) => {
